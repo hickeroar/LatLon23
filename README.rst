@@ -1,6 +1,25 @@
 
 LatLon
 ======
+
+License / Fork Information
+--------------------------
+
+::
+
+    Copyright (c) 2014-2015 Gen Del Raye
+    Copyright (c) 2015 Ryan Vennell
+
+    This is a derivative, forked from the original work by:
+    Gen Del Raye <gdelraye@hawaii.edu> and located at:
+    https://pypi.python.org/pypi/LatLon
+
+    Licensed under the GPLv3: http://www.gnu.org/licenses/gpl-3.0.html
+
+    The purpose of this fork is to provide full Python3 (and Python2)
+    support in light of the fact that the original work has no public
+    repository which can be contributed to or traditionally forked.
+
 Features
 --------
 Methods for representing geographic coordinates (latitude and longitude) including the ability to:
@@ -150,11 +169,18 @@ Manipulate *LatLon* objects using *GeoVectors*::
 
 Version
 -------
-1.0.3 - Forked from original work: https://pypi.python.org/pypi/LatLon
 
 Changelog
 =========
-**1.0.2 (MARCH/29/2015)**
+**1.0.5 (MARCH/29/2015)**
+
+    * Updated Readme to provide better attribution
+
+**1.0.4 (MARCH/29/2015)**
+
+    * Updated Readme to correct issues and provide better attribution
+
+**1.0.3 (MARCH/29/2015)**
 
     * Forked from original work: https://pypi.python.org/pypi/LatLon
     * Added Python3 support and refactored a bit of the code

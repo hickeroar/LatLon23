@@ -1,5 +1,5 @@
 """
-Copyright (c) 2014 Gen Del Raye
+Copyright (c) 2014-2015 Gen Del Raye
 Copyright (c) 2015 Ryan Vennell
 
 This is a derivative, forked from the original work by:

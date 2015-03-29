@@ -5,7 +5,7 @@ setup(
     packages = [
         'LatLon23'
     ],
-    version = '1.0.3',
+    version = '1.0.5',
     description = 'Methods for representing geographic coordinates',
     long_description = open('README.rst', 'r').read(),
     author  = 'Gen Del Raye, Ryan Vennell',
@@ -24,7 +24,7 @@ setup(
         "Operating System :: OS Independent",
         "Programming Language :: Python",
         "Topic :: Scientific/Engineering",
-        "Development Status :: 4 - Beta"
+        "Development Status :: 4 - Beta",
         'Programming Language :: Python',
         'Programming Language :: Python :: 2',
         'Programming Language :: Python :: 2.7',
