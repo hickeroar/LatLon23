@@ -154,7 +154,7 @@ Version
 
 Changelog
 =========
-**1.0.2 (MARH/29/2015)**
+**1.0.2 (MARCH/29/2015)**
 
     * Forked from original work: https://pypi.python.org/pypi/LatLon
     * Added Python3 support and refactored a bit of the code
