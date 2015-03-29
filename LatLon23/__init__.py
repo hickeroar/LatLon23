@@ -28,6 +28,9 @@ Author: Gen Del Raye
 '''
 # TODO: Write methods to convert -180 to 180 longitudes to 0 to 360 and vice versa
 
+def compare(a, b):
+    return (a > b) - (a < b)
+
 class GeoCoord:
     '''
     Abstract class representing geographic coordinates (i.e. latitude or longitude)
@@ -71,7 +74,7 @@ class GeoCoord:
         '''
         Calculate degree, minute second from decimal degree
         '''
-        sign = cmp(decimal_degree, 0) # Store whether the coordinate is negative or positive
+        sign = compare(decimal_degree, 0) # Store whether the coordinate is negative or positive
         decimal_degree = abs(decimal_degree)
         degree = decimal_degree//1 # Truncate degree to be an integer
         decimal_minute = (decimal_degree - degree)*60. # Calculate the decimal minutes
@@ -136,7 +139,7 @@ class GeoCoord:
         return coord_str
 
     def __cmp__(self, other):
-        return cmp(self.decimal_degree, other.decimal_degree)
+        return compare(self.decimal_degree, other.decimal_degree)
 
     def __neg__(self):
         return GeoCoord(-self.decimal_degree)
@@ -655,7 +658,7 @@ class GeoVector:
         return self.__sub__(other)
 
     def __cmp__(self, other):
-        return cmp(self.magnitude, other.magnitude)
+        return compare(self.magnitude, other.magnitude)
 
     def __pos__(self):
         return GeoVector(self.dx, self.dy)
