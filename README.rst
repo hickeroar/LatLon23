@@ -172,15 +172,9 @@ Version
 
 Changelog
 =========
-**1.0.5 (MARCH/29/2015)**
-
-    * Updated Readme to provide better attribution
-
-**1.0.4 (MARCH/29/2015)**
-
-    * Updated Readme to correct issues and provide better attribution
-
-**1.0.3 (MARCH/29/2015)**
+**1.0.7 (MARCH/29/2015)**
 
     * Forked from original work: https://pypi.python.org/pypi/LatLon
     * Added Python3 support and refactored a bit of the code
+    * Updated Readme to correct issues and provide proper attribution
+    * Adding MANIFEST.in
